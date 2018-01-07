@@ -22,7 +22,7 @@ success,COUNTRY,COUNTRY CODE,REGION CODE,REGION NAME,CITY,ZIP CODE,LATITUDE,LONG
 
 # Example
 
-Get request:
+GET request:
 
 https://api.revplit.com/geo/csv/response.php?ip=208.80.152.201
 

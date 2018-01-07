@@ -25,6 +25,42 @@ Organization: https://api.revplit.com/geo/org.php?ip=
 
 AS number/name: https://api.revplit.com/geo/as.php?ip=
 
+# Code sample
+
+<code>
+&lt;?php 
+  
+  $result = ""; 
+  
+    if(isset($_POST['sub'])) { 
+    
+      $ip = $_POST['ip']; 
+      
+      if(!empty($_POST['ip'])) { 
+      
+        $result = @file_get_contents("https://api.revplit.com/geo/all.php?ip=".$ip); 
+        
+      } else { 
+      
+           $result = "No IP filled in"; 
+           
+        } 
+        
+       } 
+       
+?> 
+
+
+&lt;form method="POST">
+&lt;p>IP:&lt;/p>
+&lt;input type="text" name="ip" placeholder="127.0.0" />
+
+&lt;input type="submit" value="Submit" name="sub"/>
+&lt;/form>
+
+&lt;?php echo $result; ?>
+</code>
+
 # Usage limits
 
 Our system will automatically ban any IP addresses doing over 150 requests per minute. To unban your IP you'll have to sent a email to revplit.service@gmail.com

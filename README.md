@@ -16,6 +16,7 @@ CSV https://revplit.com/pages/api/csv-response.php
 
 # Code sample
 
+<code>
 <?php
   $result = "";
     if(isset($_POST['sub'])) {
@@ -36,4 +37,4 @@ CSV https://revplit.com/pages/api/csv-response.php
 </form>
 
 <?php echo $result; ?>
-
+</code>

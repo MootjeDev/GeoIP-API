@@ -17,17 +17,28 @@ CSV https://revplit.com/pages/api/csv-response.php
 # Code sample
 
 <code>
-&lt;?php <br>
-  $result = ""; <br>
-    if(isset($_POST['sub'])) { <br>
-      $ip = $_POST['ip']; <br>
-      if(!empty($_POST['ip'])) { <br>
-        $result = @file_get_contents("https://api.revplit.com/geo/all.php?ip=".$ip); <br>
-      } else { <br>
-           $result = "No IP filled in"; <br>
-        } <br>
-       } <br>
-?> <br>
+&lt;?php 
+  
+  $result = ""; 
+  
+    if(isset($_POST['sub'])) { 
+    
+      $ip = $_POST['ip']; 
+      
+      if(!empty($_POST['ip'])) { 
+      
+        $result = @file_get_contents("https://api.revplit.com/geo/all.php?ip=".$ip); 
+        
+      } else { 
+      
+           $result = "No IP filled in"; 
+           
+        } 
+        
+       } 
+       
+?> 
+
 
 &lt;form method="POST">
 &lt;p>IP:&lt;/p>

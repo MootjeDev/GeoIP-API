@@ -9,6 +9,8 @@ You are free to use our API for non-commercial and commercial use.
 
 # Response formats
 PHP https://revplit.com/pages/api/php-response.php
+
 JSON https://revplit.com/pages/api/json-response.php
+
 CSV https://revplit.com/pages/api/csv-response.php
 

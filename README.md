@@ -17,7 +17,7 @@ CSV https://revplit.com/pages/api/csv-response.php
 # Code sample
 
 <code>
-<?php
+&lt;?php
   $result = "";
     if(isset($_POST['sub'])) {
       $ip = $_POST['ip'];
@@ -29,12 +29,12 @@ CSV https://revplit.com/pages/api/csv-response.php
        }
 ?>
 
-<form method="POST">
-<p><b>IP:</b></p>
-<input type="text" name="ip" placeholder="127.0.0" />
+&lt;form method="POST">
+&lt;p>IP:&lt;/p>
+&lt;input type="text" name="ip" placeholder="127.0.0" />
 
-<input type="submit" value="Submit" name="sub"/>
-</form>
+&lt;input type="submit" value="Submit" name="sub"/>
+&lt;/form>
 
-<?php echo $result; ?>
+&lt;?php echo $result; ?>
 </code>

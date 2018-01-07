@@ -12,10 +12,19 @@ A successful request will return the following:
 
 success,COUNTRY,COUNTRY CODE,REGION CODE,REGION NAME,CITY,ZIP CODE,LATITUDE,LONGITUDE,TIME ZONE,ISP NAME,ORGANIZATION NAME,AS NUMBER / NAME,IP ADDRESS USED
 
-Error messages:
+# Error messages
 
-Value	Description
-<b>Private range</b>	the IP address is part of a private range | <a href="https://en.wikipedia.org/wiki/Private_network#Private_use_of_other_reserved_addresses">More info</a>
+<b>Private range</b>	The IP address is part of a private range. | <a href="https://en.wikipedia.org/wiki/Private_network#Private_use_of_other_reserved_addresses">More info</a>
 
-reserved range	the IP address is part of a reserved range More info
-invalid query	invalid IP address or domain name
+<b>Reserved range</b>	The IP address is part of a reserved range. | <a href="https://en.wikipedia.org/wiki/Private_network#Private_use_of_other_reserved_addresses">More info</a>
+<b>Invalid query</b>	Invalid IP address or domain name.
+
+# Example
+
+Get request:
+
+https://api.revplit.com/geo/csv/response.php?ip=208.80.152.201
+
+Response:
+
+success,United States,US,OH,"Ohio",Cleveland,44192, 41.499500274658,-81.69539642334,America/New_York,Wikimedia Foundation, Inc.,Wikimedia Foundation, Inc.,"AS14907 Wikimedia Foundation, Inc.",208.80.152.201

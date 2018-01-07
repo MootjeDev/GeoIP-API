@@ -17,6 +17,7 @@ success,COUNTRY,COUNTRY CODE,REGION CODE,REGION NAME,CITY,ZIP CODE,LATITUDE,LONG
 <b>Private range</b>	The IP address is part of a private range. | <a href="https://en.wikipedia.org/wiki/Private_network#Private_use_of_other_reserved_addresses">More info</a>
 
 <b>Reserved range</b>	The IP address is part of a reserved range. | <a href="https://en.wikipedia.org/wiki/Private_network#Private_use_of_other_reserved_addresses">More info</a>
+
 <b>Invalid query</b>	Invalid IP address or domain name.
 
 # Example

@@ -14,3 +14,26 @@ JSON https://revplit.com/pages/api/json-response.php
 
 CSV https://revplit.com/pages/api/csv-response.php
 
+# Code sample
+
+<?php
+  $result = "";
+    if(isset($_POST['sub'])) {
+      $ip = $_POST['ip'];
+      if(!empty($_POST['ip'])) {
+        $result = @file_get_contents("https://api.revplit.com/geo/all.php?ip=".$ip);
+      } else {
+           $result = "No IP filled in";
+        }
+       }
+?>
+
+<form method="POST">
+<p><b>IP:</b></p>
+<input type="text" name="ip" placeholder="127.0.0" />
+
+<input type="submit" value="Submit" name="sub"/>
+</form>
+
+<?php echo $result; ?>
+

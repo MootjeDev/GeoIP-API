@@ -29,3 +29,11 @@ https://api.revplit.com/geo/csv/response.php?ip=208.80.152.201
 Response:
 
 success,United States,US,OH,"Ohio",Cleveland,44192, 41.499500274658,-81.69539642334,America/New_York,Wikimedia Foundation, Inc.,Wikimedia Foundation, Inc.,"AS14907 Wikimedia Foundation, Inc.",208.80.152.201
+
+# Usage limits
+
+Our system will automatically ban any IP addresses doing over 150 requests per minute. To unban your IP you'll have to sent a email to revplit.service@gmail.com
+
+# Support
+
+If you've any questions you can ask them in our discord server https://discord.gg/BZfPMxe

@@ -15,6 +15,6 @@
 <input type="text" name="ip" placeholder="127.0.0" />
 
 <input type="submit" value="Submit" name="sub"/>
-</form>
+</form> 
 
 <?php echo $result; ?>

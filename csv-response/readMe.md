@@ -3,7 +3,7 @@
 To receive the response in CSV (Comma-separated values) format, send a GET request to
 
 https://api.revplit.com/geo/csv/response.php?ip=
-
+ 
 You can supply an IP address or domain to lookup.
 
 # Response

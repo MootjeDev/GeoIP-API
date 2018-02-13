@@ -30,7 +30,7 @@ CSV https://revplit.com/pages/api/csv-response.php
         $result = @file_get_contents("https://api.revplit.com/geo/all.php?ip=".$ip); 
         
       } else { 
-      
+       
            $result = "No IP filled in"; 
            
         } 

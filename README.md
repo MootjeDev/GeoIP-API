@@ -1,4 +1,4 @@
-<a href="https://www.codefactor.io/repository/github/revplit/geoip-api"><img src="https://www.codefactor.io/repository/github/revplit/geoip-api/badge" /></a>
+<b><center>This repository is outdated! Click <a href="https://github.com/Revplit-team/GeoIP-API">here to see the updated version</center></b>
 # GeoIP-API
 Revplit provides free usage of its Geo IP API through multiple response formats.  We support IPv4 and IPv6.
 
